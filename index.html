@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <style>
+      /* 添加样式 */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+      }
+      h1 {
+        font-size: 24px; /* 增大字体大小 */
+        margin: 0; /* 去掉默认的 margin */
+      }
+      .button {
+        background: linear-gradient(to right, #555, #333);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .button:hover {
+        background: linear-gradient(to right, #666, #444);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/" style="color: white; text-decoration: none;"><h1>TuneLab</h1></a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScKTOCX_NDEdCz13PsNNeNYHwN16r8ADrXYGqlJZESVzrJT_A/viewform?usp=sharing" class="button">Share Your Work</a>
+    </header>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
